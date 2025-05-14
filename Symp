@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Questionnaire</title>
+</head>
+<body>
+  <h1>Simple Questionnaire</h1>
+  <form>
+    <label for="name">1. What is your name?</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="age">2. What is your age?</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <label>3. What is your favorite color?</label><br>
+    <input type="radio" name="color" value="Red"> Red<br>
+    <input type="radio" name="color" value="Blue"> Blue<br>
+    <input type="radio" name="color" value="Green"> Green<br><br>
+
+    <label for="feedback">4. Any feedback?</label><br>
+    <textarea id="feedback" name="feedback"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
